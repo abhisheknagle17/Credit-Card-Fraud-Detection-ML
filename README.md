@@ -58,7 +58,7 @@ The model predicts whether a transaction is:
 git clone https://github.com/your-username/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 
----
+----
 ## Create and Activate a Virtual Environment
 
 python -m venv venv
@@ -70,16 +70,17 @@ python main.py
 
 ## The application will be available at:
 http://127.0.0.1:5000/
----
+----
 
 ## Required Python Packages
+
 Flask 2.3.3
 mysql-connector-python 8.3.0
 Werkzeug 2.3.7
 pandas 2.2.2
 numpy 1.26.4
 scikit-learn 1.4.2
----
+----
 
 ## Database Setup
 
@@ -91,7 +92,7 @@ This project uses MySQL to store user accounts and contact messages.
 
 ```bash
 mysql -u root -p fraud_detection < schema.sql
----
+----
 
 
 ## Author
@@ -100,7 +101,7 @@ mysql -u root -p fraud_detection < schema.sql
 
 ## License
 This project is developed for academic and educational purposes.
-
+----
 ## Screenshots
 
 ### Home Page
