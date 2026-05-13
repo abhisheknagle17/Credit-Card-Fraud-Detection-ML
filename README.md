@@ -72,14 +72,10 @@ mysql -u root -p fraud_detection < schema.sql
 ```bash
 git clone https://github.com/your-username/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
-
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
 ```
 
 🐍 Create and Activate a Virtual Environment
-
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -92,7 +88,7 @@ mysql -u root -p fraud_detection < schema.sql
 python main.py
 
 🌍 The Application Will Be Available At http://127.0.0.1:5000/
-
+```
 ---
 
 ## 📁 Project Structure
