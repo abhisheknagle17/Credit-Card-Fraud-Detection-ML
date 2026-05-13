@@ -1,8 +1,37 @@
+## Screenshots
 
-Screenshots/
-├── home.png
-├── login.png
-├── dashboard.png
-├── prediction.png
-├── upload.png
-└── results.png
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Homepage Banner
+![Homepage Banner](screenshots/Homepage1.png)
+
+### Homepage Alternative View
+![Homepage Alternative View](screenshots/Homepage2.png)
+
+### About Page
+![About Page](screenshots/About.png)
+
+### About Section
+![About Section](screenshots/About2.png)
+
+### Services Page
+![Services Page](screenshots/Services.png)
+
+### Help / Features Section
+![Help Section](screenshots/help.png)
+
+### Login Page
+![Login Page](screenshots/Login.png)
+
+### Register Page
+![Register Page](screenshots/Register%20Page.png)
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Check Another Transaction
+![Check Another Transaction](screenshots/check%20another%20transaction.png)
+
+### Detection Result
+![Detection Result](screenshots/Detection%20Result.png)
