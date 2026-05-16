@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Check Another Transaction - CardShield</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="bg-light p-5 rounded shadow">
+            <h3 class="mb-4 text-center">Check Another Transaction</h3>
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Amount</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Enter amount"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Time</label>
+                <input type="datetime-local" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter location"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Card Holder</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter card holder name"
+                />
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary px-4 py-2">
+                  Submit
+                </button>
+                <a
+                  href="detection-result.html"
+                  class="btn btn-outline-secondary px-4 py-2 ms-2"
+                  >Back</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

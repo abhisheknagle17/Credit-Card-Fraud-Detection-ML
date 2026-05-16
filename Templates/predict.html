@@ -1,0 +1,22 @@
+<!-- templates/predict.html -->
+<!DOCTYPE html>
+<html>
+<head><title>Transaction Prediction</title></head>
+<body>
+    <h2>Enter Transaction Details</h2>
+    <form method="POST">
+        {% for feature in feature_columns %}
+            <label>{{ feature }}</label>
+            <input type="text" name="{{ feature }}" required><br>
+        {% endfor %}
+
+        <label>Select Model:</label>
+        <select name="model">
+            <option value="rf">Random Forest</option>
+            <option value="lr">Logistic Regression</option>
+        </select><br><br>
+
+        <button type="submit">Check Fraud</button>
+    </form>
+</body>
+</html>
